@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7f05779fbf3947c08e580c6a6506cf76" Name="Diagram1">
+        <EntityTypeShape EntityType="bdd_Daltons_ppe3Model.Compte_rendu" Width="1.5" PointX="3" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="bdd_Daltons_ppe3Model.Etat_intervention" Width="1.5" PointX="3" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="bdd_Daltons_ppe3Model.Intervention" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="bdd_Daltons_ppe3Model.Materiel" Width="1.5" PointX="1.5" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="bdd_Daltons_ppe3Model.Motif_changement_planning" Width="1.5" PointX="5.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="bdd_Daltons_ppe3Model.Motif_intervention" Width="1.5" PointX="3" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="bdd_Daltons_ppe3Model.Societe" Width="1.5" PointX="0.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="bdd_Daltons_ppe3Model.sysdiagrams" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="bdd_Daltons_ppe3Model.Technicien" Width="1.5" PointX="0.75" PointY="5.375" IsExpanded="true" />
+        <AssociationConnector Association="bdd_Daltons_ppe3Model.FK__Compte_re__id_so__0B91BA14" ManuallyRouted="false" />
+        <AssociationConnector Association="bdd_Daltons_ppe3Model.FK__Compte_re__id_so__0C85DE4D" ManuallyRouted="false" />
+        <AssociationConnector Association="bdd_Daltons_ppe3Model.FK__Compte_re__id_so__0D7A0286" ManuallyRouted="false" />
+        <AssociationConnector Association="bdd_Daltons_ppe3Model.FK__Compte_re__id_te__0E6E26BF" ManuallyRouted="false" />
+        <AssociationConnector Association="bdd_Daltons_ppe3Model.FK_Intervention_Compte_rendu" ManuallyRouted="false" />
+        <AssociationConnector Association="bdd_Daltons_ppe3Model.FK_Etat_intervention_Etat_intervention" ManuallyRouted="false" />
+        <AssociationConnector Association="bdd_Daltons_ppe3Model.FK_Intervention_Etat_intervention1" ManuallyRouted="false" />
+        <AssociationConnector Association="bdd_Daltons_ppe3Model.FK_Intervention_Motif_intervention1" ManuallyRouted="false" />
+        <AssociationConnector Association="bdd_Daltons_ppe3Model.FK_Intervention_Societe" ManuallyRouted="false" />
+        <AssociationConnector Association="bdd_Daltons_ppe3Model.FK_Intervention_Technicien" ManuallyRouted="false" />
+        <AssociationConnector Association="bdd_Daltons_ppe3Model.FK_Technicien_Materiel" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
